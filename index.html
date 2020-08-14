@@ -1,0 +1,108 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src = "css\main.js"></script>
+<body>
+    <section>
+        <nav>
+            <a href="#" class="logo">TEN.Production</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I,M PRANJAL</p>
+            <p>Programmer <br>& Devolper</p>
+        </div>
+    </section>
+    <div class="about-container">
+
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus, nulla dolor illo suscipit
+                earum eligendi vel quis iure quasi, alias aperiam voluptatum assumenda fuga excepturi! Distinctio, alias
+                nisi fugit, quam dolorum eum deleniti quas, error esse possimus facere sint repudiandae. Voluptatem unde
+                nihil natus expedita quaerat, sit praesentium maxime?
+            </p>
+        </div>
+    </div>
+
+    <div class="skills">
+        <div class="skills-text ">
+            <p>Skills</p>
+        </div>
+        <div class="box-container">
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolorem. Vero
+                    dignissimos soluta repudiandae consectetur incidunt asperiores velit quae tempora?</p>
+            </div>
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Devoloment</p>
+                <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem numquam dolore quos sit labore minus ea consectetur, fugiat corrupti ipsum!</p>
+            </div>
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Competitive Coding</p>
+                <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veritatis impedit,
+                    culpa at unde eum voluptas vitae illo aspernatur ratione.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact_section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container">
+            <form action="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="button" value="Submit" class="contact_button">
+            </form>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <div class="social">
+        <a href="#"><i class="fa fa-facebook-f"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <body onload="servertime()">
+    <div class="Servertime">
+        <p>Server Time is &nbsp;<span id ="Time"></span></p>
+        <script>
+            function servertime()
+            {document.getElementById('Time').innerHTML=Date();
+        }
+        </script>
+    </div>
+    </body>
+    <footer class="footer">
+        <p>www.ten.production.com &copy; 2027-All Right Reserved</p>
+    </footer>
+
+
+</body>
+
+</html>
